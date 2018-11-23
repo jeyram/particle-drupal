@@ -7,7 +7,11 @@
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
         "drush/drush": "^9.5",
-        "drupal/module_filter": "^3.1"
+        "drupal/module_filter": "^3.1",
+        "drupal/admin_toolbar": "^1.24",
+        "drupal/admin_toolbar_content_languages": "^1.0@beta",
+        "drupal/classy_paragraphs": "^1.0@beta",
+        "drupal/paragraphs": "^1.5"
     },
     "replace": {
         "drupal/core": "^8.6"
