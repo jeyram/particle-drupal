@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f5146dd1e64854ab491d011a1f654df7",
-    "content-hash": "d8232cbc380af4233ca796b550b36f73",
+    "hash": "57dd1e51824f62278a102323efd6e206",
+    "content-hash": "cb3e4238d65054a1069e8c7195a9c1fa",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1546,6 +1546,56 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/entity_reference_revisions"
             }
+        },
+        {
+            "name": "drupal/material_admin",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/material_admin",
+                "reference": "cdd7b5229c2b58585a39f4b6447ae5bbbae128b1"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha6+16-dev",
+                    "datestamp": "1533559384",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bcwald",
+                    "homepage": "https://www.drupal.org/user/215794"
+                },
+                {
+                    "name": "rlnorthcutt",
+                    "homepage": "https://www.drupal.org/user/116893"
+                },
+                {
+                    "name": "samuel.mortenson",
+                    "homepage": "https://www.drupal.org/user/2582268"
+                }
+            ],
+            "description": "Material Design Admin Theme",
+            "homepage": "https://www.drupal.org/project/material_admin",
+            "support": {
+                "source": "http://cgit.drupalcode.org/material_admin"
+            },
+            "time": "2018-08-06 12:44:44"
         },
         {
             "name": "drupal/module_filter",
@@ -6964,6 +7014,7 @@
     "stability-flags": {
         "drupal/admin_toolbar_content_languages": 10,
         "drupal/classy_paragraphs": 10,
+        "drupal/material_admin": 20,
         "behat/mink": 20,
         "behat/mink-selenium2-driver": 20
     },
