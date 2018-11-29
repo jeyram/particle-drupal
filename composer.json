@@ -12,7 +12,8 @@
         "drupal/admin_toolbar_content_languages": "^1.0@beta",
         "drupal/classy_paragraphs": "^1.0@beta",
         "drupal/paragraphs": "^1.5",
-        "drupal/material_admin": "1.x-dev"
+        "drupal/material_admin": "1.x-dev",
+        "drupal/components": "^1.0"
     },
     "replace": {
         "drupal/core": "^8.6"
