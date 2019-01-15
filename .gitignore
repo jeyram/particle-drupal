@@ -16,7 +16,7 @@ settings.php
 
 # Ignore Drupal's local files for dev.
 sites/default/settings.local.php
-sites/local.services.yml
+sites/default/local.services.yml
 
 # Ignore SimpleTest multi-site environment.
 /sites/simpletest
